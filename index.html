@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dev-Match</title>
+  </head>
+  <body>
+    <main>
+      <div class="top">
+        <span>Dev-Match</span>
+        <button id="nav-dropdown-btn">DROP</button>
+        <div class="account-drop-wrapper">
+          <button id="account-btn">Richard Chibuike</button>
+          <div class="account-drop">
+            <ul>
+              <li>Profile</li>
+              <li>FAQ</li>
+              <li>Sign Out</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="left">
+        <ul>
+          <li>Dashboard</li>
+          <li>Test</li>
+          <li>Job</li>
+          <li>Learn</li>
+          <li>Sign Out</li>
+        </ul>
+      </div>
+      <div class="mid">
+        
+          <section class="skills">
+            <form action="">
+            <h2>Select Your Skills</h2>
+
+            <div class="skill-group frontend">
+              <h3>Frontend</h3>
+              <label><input type="checkbox" value="HTML" /> HTML</label>
+              <label><input type="checkbox" value="CSS" /> CSS</label>
+              <label
+                ><input type="checkbox" value="JavaScript" /> JavaScript</label
+              >
+              <label><input type="checkbox" value="React" /> React</label>
+            </div>
+
+            <div class="skill-group backend">
+              <h3>Backend</h3>
+              <label><input type="checkbox" value="Node.js" /> Node.js</label>
+              <label><input type="checkbox" value="Express" /> Express</label>
+              <label><input type="checkbox" value="MongoDB" /> MongoDB</label>
+              <label><input type="checkbox" value="SQL" /> SQL</label>
+            </div>
+
+            <div class="skill-group devops">
+              <h3>DevOps</h3>
+              <label><input type="checkbox" value="Git" /> Git</label>
+              <label><input type="checkbox" value="Docker" /> Docker</label>
+              <label><input type="checkbox" value="Linux" /> Linux</label>
+              <label><input type="checkbox" value="CI/CD" /> CI/CD</label>
+            </div>
+
+            <button id="matchBtn" type="submit">Match Me</button>
+          </section>
+  </form>
+          <div class="result">
+            <h3>Your Match:</h3>
+            <p id="role"></p>
+            <h3>Learning Resource:</h3>
+            <div id="resources"></div>
+          </div>
+        </div>
+     
+    </main>
+    <!-- EXTRA NON-STRUCTURE -->
+    <div class="drop">
+      <ul>
+        <li>Dashboard</li>
+        <li>Test</li>
+        <li>Job</li>
+        <li>Learn</li>
+        <li>Profile</li>
+        <li>Sign Out</li>
+      </ul>
+    </div>
+
+    <!-- END HERE -->
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

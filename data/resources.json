@@ -1,0 +1,71 @@
+{
+  "frontend": [
+    {
+      "name": "freeCodeCamp – Responsive Web Design",
+      "link": "https://www.freecodecamp.org/learn/responsive-web-design/",
+      "description": "Learn HTML, CSS, and accessibility from scratch in a hands-on way.",
+      "type": "course",
+      "level": "beginner"
+    },
+    {
+      "name": "Bro Code HTML/CSS Crash Course",
+      "link": "https://www.youtube.com/watch?v=Q33KBiDriJY",
+      "description": "A quick crash course on HTML and CSS by Bro Code.",
+      "type": "video",
+      "level": "beginner"
+    },
+    {
+      "name": "MDN Web Docs - HTML/CSS",
+      "link": "https://developer.mozilla.org/en-US/docs/Web",
+      "description": "The most trusted developer docs for HTML and CSS.",
+      "type": "documentation",
+      "level": "all"
+    }
+  ],
+  "backend": [
+    {
+      "name": "Node.js Crash Course – Traversy Media",
+      "link": "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+      "description": "Learn how to build a server and API using Node.js and Express.",
+      "type": "video",
+      "level": "beginner"
+    },
+    {
+      "name": "freeCodeCamp – APIs and Microservices",
+      "link": "https://www.freecodecamp.org/learn/back-end-development-and-apis/",
+      "description": "Covers backend concepts including Node, Express, and MongoDB.",
+      "type": "course",
+      "level": "intermediate"
+    },
+    {
+      "name": "The Odin Project – Backend Path",
+      "link": "https://www.theodinproject.com/paths/full-stack-javascript",
+      "description": "A full-stack curriculum including backend fundamentals.",
+      "type": "course",
+      "level": "beginner"
+    }
+  ],
+  "devops": [
+    {
+      "name": "Git & GitHub Crash Course – Traversy Media",
+      "link": "https://www.youtube.com/watch?v=SWYqp7iY_Tc",
+      "description": "Learn version control with Git and GitHub from scratch.",
+      "type": "video",
+      "level": "beginner"
+    },
+    {
+      "name": "Docker for Beginners – TechWorld with Nana",
+      "link": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "description": "An excellent intro to Docker and containerization.",
+      "type": "video",
+      "level": "intermediate"
+    },
+    {
+      "name": "CI/CD Explained – Fireship",
+      "link": "https://www.youtube.com/watch?v=scEDHsr3APg",
+      "description": "Fast and visual explanation of Continuous Integration and Deployment.",
+      "type": "video",
+      "level": "beginner"
+    }
+  ]
+}
