@@ -66,9 +66,9 @@
             const password = passwordInput.value;
 
             // Check credentials
-            if (username === 'user_basic' && password === '12345') {
+            if (username === 'user_basic' && password == '12345') {
                 errorMessageDiv.classList.add('hidden'); // Hide any previous error messages
-                window.location.href = 'index.html'; // Redirect to index.html
+                window.location.href = './index.html'; // Redirect to index.html
             } else {
                 errorMessageDiv.classList.remove('hidden'); // Show error message
             }
